@@ -1,0 +1,3 @@
+echo "alias run='java -cp .:'$HOME'/junit-4.12.jar:.:'$HOME'/hamcrest-core-1.3.jar org.junit.runner.JUnitCore '">>~/.bash_profile
+echo "alias compile='javac -cp .:'$HOME'/junit-4.12.jar '">>~/.bash_profile
+printf "runAndCompile(){\n\tcompile \$1.java && run \$1\n}\nalias jtest=runAndCompile">>~/.bash_profile
