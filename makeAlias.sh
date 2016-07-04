@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 chmod +x makeAlias
 echo "Please give all the input without any quotation"
 read -p "Type shortcut : " shortcut
